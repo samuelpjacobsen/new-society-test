@@ -7,6 +7,26 @@ body {
     background-color: #f4f4f4;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
 .container {
     background-color: white;
     padding: 20px;
@@ -14,7 +34,13 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-h1 {
+h1, h2 {
     color: #333;
     text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
 }
